@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffff00;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*Secao 1*/
+.secao1{
+    padding: 14px;
+}
+
+.card{
+    background-color: white;
+    width: 270px;
+    height: 380px;
+    border-radius: 14px;
+    border: 1px solid black;
+    box-shadow: 7px 7px 5px black;
+}
+
+.card:hover{
+    box-shadow: 7px 8px 8px 2px rgb(87, 87, 85);
+}
+
+.ft1{
+    width: 230px;
+    height: 190px;
+}
+
+
+.status{
+    background-color: rgb(207, 195, 59);
+    width: 89px;
+    height: 18px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.plubicado{
+    font-family: arial;
+    font-size: 11px;
+    margin: 0px 0px 10px 0px;
+}
+
+.titulo{
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
+
+.descricao{
+    font-family: arial;
+    font-size: 13px;
+    color: rgba(22, 22, 21, 0.911);
+    margin: 0px 0px 12px 0px;
+}
+
+.foto-perfil{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.nome-usuario{
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+@media (max-width: 450px){
+
+    main{
+        background-color: #ffff00;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .card{
+        background-color: white;
+        width: 220px;
+        height: 355px;
+        border-radius: 14px;
+        border: 1px solid black;
+        box-shadow: 7px 7px 5px black;
+    }
+
+    .ft1{
+        width: 195px;
+        height: 140px;
+        padding: 5px 4px 0px 0px;
+
+    }
+
+    .status{
+        background-color: rgb(207, 195, 59);
+        width: 84px;
+        height: 15px;
+        border-radius: 4px;
+        text-align: center;
+        margin-bottom: 4px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .plubicado{
+        font-family: arial;
+        font-size: 10.9px;
+        margin: 2px 0px 9px 0px;
+    }
+    
+    .titulo{
+        font-family: arial;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .descricao{
+        font-family: arial;
+        font-size: 13px;
+        color: rgba(22, 22, 21, 0.911);
+        margin: 0px 0px 12px 0px;
+    }
+    
+    .foto-perfil{
+        display: flex;
+        align-items: center;
+        padding-bottom: 25px;
+    }
+    
+    .nome-usuario{
+        font-family: arial;
+        font-size: 11px;
+        font-weight: bold;
+        margin-left: 6px;
+    }
+    
+}
